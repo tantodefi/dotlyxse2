@@ -32,7 +32,7 @@ export const menuLinks: HeaderMenuLink[] = [
   },
   {
     label: ".LYX Opensea",
-    href: "https://opensea.io/collection/lyx-name-service",
+    href: "https://opensea.io/collection/lyx-name-service-1",
     icon: <MagnifyingGlassIcon className="h-4 w-4" />,
   },
   {
