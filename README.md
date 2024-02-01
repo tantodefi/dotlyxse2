@@ -1,3 +1,11 @@
+# .LYX Name Service
+
+currently live on polygon: 0xf94279151ea5d9E89775b677481b1653D2f21927
+
+collection on opensea: https://opensea.io/collection/lyx-name-service
+
+live vercel link: https://dotlyx-k7b5eyiko-tantodefi.vercel.app/
+
 # 🏗 Scaffold-ETH 2
 
 <h4 align="center">
