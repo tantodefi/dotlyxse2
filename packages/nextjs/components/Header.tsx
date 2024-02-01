@@ -4,13 +4,19 @@ import React, { useCallback, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Bars3Icon, BugAntIcon, MagnifyingGlassIcon, MagnifyingGlassMinusIcon, TrophyIcon } from "@heroicons/react/24/outline";
+import twitterLogo from "../public/twitter-logo.svg";
+import {
+  Bars3Icon,
+  BugAntIcon,
+  MagnifyingGlassIcon,
+  MagnifyingGlassMinusIcon,
+  TrophyIcon,
+} from "@heroicons/react/24/outline";
 import { FaucetButton, RainbowKitCustomConnectButton } from "~~/components/scaffold-eth";
 import { useOutsideClick } from "~~/hooks/scaffold-eth";
-import twitterLogo from '../public/twitter-logo.svg';
 
 // Constants
-const TWITTER_HANDLE = 'tantodefi';
+const TWITTER_HANDLE = "tantodefi";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 type HeaderMenuLink = {
@@ -105,13 +111,8 @@ export const Header = () => {
         </div>
         <Link href={TWITTER_LINK} passHref className="hidden lg:flex items-center gap-2 ml-4 mr-6 shrink-0">
           <div className="flex relative w-10 h-10">
-          <Image alt="Twitter Logo" className="twitter-logo" src={twitterLogo}/>
-          <a
-            className="footer-text"
-            href={TWITTER_LINK}
-            target="_blank"
-            rel="noreferrer"
-          ></a>
+            <Image alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
+            <a className="footer-text" href={TWITTER_LINK} target="_blank" rel="noreferrer"></a>
           </div>
           <div className="flex flex-col">
             <span className="text-xs">built by:</span>
